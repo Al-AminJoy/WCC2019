@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.trustedoffer.worldcupcricket2019">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icc"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icc"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:networkSecurityConfig="@xml/network_security_config"
+        >
+        <activity android:name="com.trustedoffer.worldcupcricket2019.LiveScoreActivity"></activity>
+        <activity android:name="com.trustedoffer.worldcupcricket2019.SaActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.IndActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.EngActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.WiActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.TeamsActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.StatsActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.SriActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.ScheduleActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.PointTableActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.PakActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.NewzActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.MostWicketActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.MostRunsActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.MostFiftyActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.MostCenturyActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.HighScoreActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.BowlingStatsActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.BestEconomyActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.BestBowlingActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.BdActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.BattingStatsActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.AusActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.AfgActivity" />
+        <activity android:name="com.trustedoffer.worldcupcricket2019.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

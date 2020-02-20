@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="2dp"
+    android:background="#4b4747"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/teamid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="25"
+        android:gravity="center_horizontal"
+        android:text="South Africa"
+        android:textColor="@color/whitecolor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/playedid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center_horizontal"
+        android:text="7"
+        android:textColor="@color/whitecolor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/wonid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center_horizontal"
+        android:text="7"
+        android:textColor="@color/whitecolor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lostid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center_horizontal"
+        android:text="0"
+        android:textColor="@color/whitecolor"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tieid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center_horizontal"
+        android:text="0"
+        android:textColor="@color/whitecolor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/totalpointid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:gravity="center_horizontal"
+        android:text="14"
+        android:textColor="@color/whitecolor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nrrid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="12"
+        android:gravity="center_horizontal"
+        android:text="2.555"
+        android:textColor="@color/whitecolor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>
+
